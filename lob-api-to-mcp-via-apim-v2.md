@@ -61,7 +61,7 @@ The following decisions were confirmed and drive the rest of this document.
 
 There are three independent trust boundaries. Conflating them is the most common source of confusion, so they are called out explicitly. The OAuth fields configured in Foundry or Copilot Studio govern only the first boundary; the backend credential is internal to APIM.
 
-![Token flow and the three trust boundaries](architecture.png)
+![Token flow and the three trust boundaries](lob-api-to-mcp-via-apim-architecture.png)
 
 *Figure 1. Token flow and the three trust boundaries.*
 
